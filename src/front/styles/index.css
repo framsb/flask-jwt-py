@@ -1,3 +1,64 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+
+body,html{
+    height: 100%;
+    font-family: 'Kaisei Opti', serif;
+    background: rgb(49,11,52);
+    background: linear-gradient(164deg, rgba(49,11,52,1) 15%, rgba(88,20,95,1) 61%, rgba(138,90,173,1) 100%, rgba(211,156,251,1) 100%);
+}
+
+.card-1{
+    background: rgba(255, 255, 255, 0.2);
+    height: 500px;
+    width: 700px;
+    margin: 20px auto;
+    color:rgba(240, 248, 255, 0.486);
+    padding: 30px 50px 0px;
+}
+
+input {
+    border-style: none;
+    background: rgba(211, 156, 251, 0.39);
+    outline:none;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.button1 {
+    background: rgb(93, 38, 172);
+    border-radius: 3px;
+    width: 40%;
+    height: 40px;
+    border: none;
+    color: rgb(67, 27, 124);
+    padding: 2px;
+}
+ 
+.button1:hover {
+    background: rgb(148, 86, 235);
+    color: rgb(93, 38, 172);
+}
+
+.new{
+    float: left;
+  }
+  
+  .iconBox{
+      height: 40px;
+      width: 40px;
+      line-height: 38px;
+      text-align: center;
+      border-radius: 2px;
+        background:rgb(67, 27, 124);
+
+  }
+  
+  .radio{
+      color: white;
+      background: #2d3e3f;
+      line-height: 38px;
+  }
