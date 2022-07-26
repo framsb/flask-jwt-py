@@ -144,6 +144,10 @@ export const Register = () => {
 							Registrate!
 						</button>
 						</div>
+						<div className="text-center">
+						<Link to="/login">
+						I already have an account
+					</Link></div>
 						</div>
 						</div>
 						{localStorage.getItem("token") != undefined && (

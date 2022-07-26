@@ -19,6 +19,15 @@ export const Private = () => {
 						<div className="card-body">
 							<h2 className="title px-5">Hello word¿?</h2>
 							<h2 className="title px-5">:D</h2>
+							<button
+								className="button1"
+								onClick={(e) => {
+									localStorage.removeItem("token");
+									history.push("/login");
+								}}
+								>
+								Log out
+							</button>
 						</div>
 			</div>
 			{localStorage.getItem("token") == undefined && <Redirect to={"/login"} />}

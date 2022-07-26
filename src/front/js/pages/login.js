@@ -99,6 +99,10 @@ export const Login = () => {
 							Login !
 						</button>
 						</div>
+						<div className="text-center">
+						<Link to="/register">
+						I don't have an account
+					</Link></div>
 						</div>
 						</div>
 						{localStorage.getItem("token") != undefined && (
